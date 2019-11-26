@@ -1,0 +1,8 @@
+CV
+Nom
+Prénom
+Permis
+Formations
+Compétences
+Langues
+Logiciels

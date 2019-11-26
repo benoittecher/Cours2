@@ -1,0 +1,183 @@
+    1  git
+    2  dir
+    3  dir/w
+    4  dir /w
+    5  ls
+    6  ls -a
+    7  ls -l
+    8  ls -l
+    9  ls Music/
+   10  ls Documents/
+   11  cd Documents/
+   12  ls -l
+   13  ls -l-a
+   14  ls -l -a
+   15  ls -la
+   16  ls -l --all
+   17  history 
+   18  mkdir "Projet Web"
+   19  ls -la
+   20  cd Projet\ Web/
+   21  ls -la
+   22  cd ../
+   23  rename Projet\ Web/ "Projets Web"
+   24  mv Projet\ Web/ "Projets Web"
+   25  ls
+   26  mv Projets\ Web/ "Projet Web"
+   27  ls
+   28  cd Projet\ Web/
+   29  cd ../
+   30  mv Projet\ Web/ "Projets Web"
+   31  cd Projets\ Web/
+   32  mkdir _Git "Cours 1" -p
+   33  mkdir _Git/"Cours 1" -p
+   34  ls -l
+   35  mkdir _Git/"Cours 1" -p
+   36  cd _Git/
+   37  cd ..
+   38  cd _Git/Cours\ 1/
+   39  touch m1 m2 m3
+   40  ls
+   41  ls -l
+   42  echo "Hello world !"
+   43  echo "Hello world !">m1 
+   44  ls -l
+   45  mv m1 m1.txt
+   46  ls -l
+   47  cat m1.txt 
+   48  date
+   49  date>date.js
+   50  ls -l
+   51  cat date.js 
+   52  ls -l
+   53  date>date.js
+   54  ls -l
+   55  cat date.js 
+   56  date>>date.js
+   57  cat date.js 
+   58  history 
+   59  history>history.txt
+   60  cat history.txt 
+   61  rm m*
+   62  ls -l
+   63  nano history.txt 
+   64  notepad history.txt 
+   65  notepad++ history.txt 
+   66  nano --help
+   67  ls --help
+   68  git
+   69  git config --global user.name Eric
+   70  git config --global user.naemail eric@doranco.fr
+   71  pwd
+   72  ls -l
+   73  pwd
+   74  ls -la
+   75  ls -la
+   76  git init
+   77  ls -l
+   78  ls -la
+   79  rm .git/
+   80  rm .git/ -d
+   81  rm --help
+   82  rm .git/ -dr
+   83  ls -la
+   84  git init
+   85  ls -la
+   86  git commit 
+   87  git add date.js 
+   88  git status 
+   89  git status 
+   90  git rm --cached date.js 
+   91  git status 
+   92  git add .
+   93  git status 
+   94  git rm --cached *
+   95  git status 
+   96  git add .
+   97  git status 
+   98  git commit -m "Version initiale"
+   99  git status 
+  100  git log 
+  101  cd
+  102  sl -l
+  103  ls -l
+  104  ls Documents/
+  105  ls -la Documents/Projets\ Web/_Git/Cours\ 1/
+  106  cd -la Documents/Projets\ Web/_Git/Cours\ 1/
+  107  cd Documents/Projets\ Web/_Git/Cours\ 1/
+  108  ls -l
+  109  ls -al
+  110  cd c
+  111  cd c:
+  112  pwd
+  113  ls
+  114  git init
+  115  git status 
+  116  pwd
+  117  ls -la
+  118  rm .git/ -rd
+  119  ls -la
+  120  cd
+  121  pwd
+  122  cd Documents/Projets\ Web/_Git/Cours\ 1/
+  123  pwd
+  124  ls -la
+  125  ls notes.txt
+  126  echo "I) Mise en place">Notes.txt
+  127  echo "Afin d'initialiser le dossier nous devons saisir 'git init'">>Notes.txt
+  128  nano Notes.txt 
+  129  nano --help
+  130  nano Notes.txt -mia
+  131  git status
+  132  git add *
+  133  git status
+  134  git commit -m "Version assortie des notes"
+  135  git log
+  136  ls -la
+  137  date>>date.js
+  138  ls -la
+  139  git status 
+  140  nano Notes.txt 
+  141  cd
+  142  nano .nanorc
+  143  cd Documents/Projets\ Web/_Git/Cours\ 1/
+  144  nano Notes.txt 
+  145  git status 
+  146  git log 
+  147  git log 
+  148  git log -p
+  149  nano history.txt 
+  150  nano ~/.nanorc 
+  151  nano Notes.txt 
+  152  cat ~/.nanorc 
+  153  cat ~/.nanorc 
+  154  git status 
+  155  git log
+  156  git log -p
+  157  git log --stat 
+  158  git status 
+  159  git commit -m "Version avec MAJ des fichiers"
+  160  git log
+  161  git commit -am "Version avec MAJ des fichiers"
+  162  git log
+  163  git log -p
+  164  git log --stat 
+  165  ls -la
+  166  date>date.js
+  167  git checkout date.js
+  168  date>date.js
+  169  git checkout date.js
+  170  git log
+  171  git checkout cab70bee353786fa
+  172  git log
+  173  git commit -am "Version beta"
+  174  git log
+  175  git checkout cab70bee353786
+  176  git log 
+  177  git checkout head
+  178  git log
+  179  git checkout head~1
+  180  git checkout master 
+  181  git log 
+  182  history
+  183  history>history.txt 

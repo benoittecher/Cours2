@@ -1,0 +1,7 @@
+I) Mise en place Afin d'initialiser le dossier nous devons saisir 'git 
+init' Nous pouvons observer l'état des fichiers avant commit avec 'git 
+status' 
+a) Pour en ajouter on fait 'git add *'
+b) Pour en supprimer on fait 'git rm --cached *'
+c) * pour désigner tout le monde (que l'on 
+peut remplacer par le nom du fichier ou dossier)
